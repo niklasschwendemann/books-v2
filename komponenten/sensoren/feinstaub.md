@@ -1,9 +1,16 @@
 #Feinstaubsensor {#head}
 <div class="description">
+<<<<<<< HEAD
 
 Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft zu bestimmen. Der Sensor gibt zwei Werte aus: Die Konzentration von PM2.5 (Partikel < 2.5 um) und PM10 (Partikel < 10 um). Dieser Sensor ist mit einem kleinen Ventilator ausgestattet, um Luft anzusaugen. In seinem Inneren befindet sich ein Laser, der zusammen mit einer Photodiode die Anzahl der Partikel misst. Die Ergebnisse der Messungen werden in µg/m³ (Mikrogramm pro Kubikmeter) angegeben.
 
 </div>
+=======
+
+Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft zu bestimmen. Der Sensor gibt zwei Werte aus: Die Konzentration von PM2.5 (Partikel < 2.5 um) und PM10 (Partikel < 10 um). Dieser Sensor ist mit einem kleinen Ventilator ausgestattet, um Luft anzusaugen. In seinem Inneren befindet sich ein Laser, der zusammen mit einer Photodiode die Anzahl der Partikel misst. Die Ergebnisse der Messungen werden in µg/m³ (Mikrogramm pro Kubikmeter) angegeben.
+</div>
+
+>>>>>>> edu
 <div class="line">
     <br>
     <br>
@@ -32,7 +39,11 @@ Mit dem mitgelieferten Verbindungskabel kannst du deinen Feinstaub Sensor mit de
 Ist dies erledigt können wir nun im Programmcode den Sensor initialisieren und uns die ersten Messwerte ausgeben lassen.
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+<<<<<<< HEAD
     Stelle sicher das du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/libraries-hinzufuegen.html">der Einleitung</a> erklärt!
+=======
+    Stelle sicher das du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/libraries-hinzufuegen.html">Schritt 3</a> erklärt!
+>>>>>>> edu
 </div>
 Als erstes muss eine Instanz des Sensors erstellt werden. Dazu erstellen wir noch 2 Variablen in denen wir unsere beiden Messwerte
 für PM10 und PM2.5 speichern
@@ -73,3 +84,7 @@ void loop(){
 }
 ```
 {% endcollapse %}
+<<<<<<< HEAD
+=======
+
+>>>>>>> edu

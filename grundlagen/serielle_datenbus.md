@@ -20,8 +20,8 @@ Am Arduino findest du die beiden Anschlüsse als `A4` (SDA) und `A5` (SDC).
 Wenn mehrere I²C Geräte an den Arduino angeschlossen werden sollen, wird dies über eine Reihenschaltung umgesetzt.
 Das SDA Kabel am ersten Sensor würde also auf der selben Reihe des Breadboards zum nächsten Sensor verlängert:
 
-<img src="https://raw.githubusercontent.com/sensebox/books-v2/edu/grundlagen/senseBox_MCU.jpg?token=ARdM0l7XEX9qelerBf53MG_i7KQNydkXks5a_u0ywA%3D%3D" alt="senseBox_MCU" align="center" width="600px"/>
+![senseBox MCU mit Breadboard](../pictures/mcu%20v2%20top.png)
 
 Benutzt man den I²C-Bus auf dem Arduino, gilt der Arduino immer als Master-Gerät und alle anderen Geräte am Bus als Slave.
 Jeder Slave hat seine eigene Adresse in Form einer Hexadezimalzahl, mit welcher er eindeutig angesprochen werden kann.
-Für gewöhnlich bringt jedes Gerät einen Bereich von Busadressen mit, welche man verwenden kann. Die jeweiligen Adressen können im Datenblatt des Herstellers nachgeschaut werden, und stehen auch bei uns im [Glossar](../GLOSSARY.md).
+Für gewöhnlich bringt jedes Gerät einen Bereich von Busadressen mit, welche man verwenden kann. Die jeweiligen Adressen können im Datenblatt des Herstellers nachgeschaut werden.
