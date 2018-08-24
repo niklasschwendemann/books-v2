@@ -4,7 +4,9 @@
 # Table of Contents
 1. [senseBox](#senseBox)
 2. [Blockly für senseBox](#blockly)
-3. [Wetterstation](#Wetterstation)
+3. [openSenseMap](#openSenseMap)
+4. [Handreichung für Workshopleiter](#handreichung)
+5. [Lehrmaterialien für SchülerInnen](#lehrmaterialien)
 
 ## senseBox
 Mit der senseBox können SchülerInnen ihre eigene Wetterstation verkabeln und programmieren. Auf dem Bild ist das Herzstück der senseBox der Mikrocontroller(MCU) zu sehen.
@@ -32,7 +34,7 @@ Haben die SchülerInnen ihren Programmcode fertiggstellt kann dieser auf die sen
 ## openSenseMap
 Die openSenseMap stellt eine Datenbank für Umweltmesswerte dar. Nachdem ein Account und eine Messstation auf der openSenseMap registriert wurde, können Messwerte von der senseBox auf die openSenseMap hochgeladen werden. Eine ausführliche Anleitung zur openSenseMap gibt es [hier](https://sensebox.github.io/books-v2/osem/).
 
-## Handreichung für Workshopleiter
+## Handreichung für Workshopleiter<a name="handreichung"></a>
 ### Zeitplan 
 Die Konfigurierung der Wetterstation bedarf erfahrungsgemäß 60 bis 90 Minuten und lässt sich grob wiefolgt aufteilen:
 - Kennenlernen der senseBox und Blockly Programmieroberfläche (15-30 Minuten)
@@ -40,7 +42,7 @@ Die Konfigurierung der Wetterstation bedarf erfahrungsgemäß 60 bis 90 Minuten 
 - Registrierung auf der openSenseMap(5-10 Minuten)
 - Hochladen auf der openSenseMap(10 Minuten)
 ### Mögliche Probleme und Lösungsvorschläge
-
+<To be Inserted>
 ### Thematische Einordnung 
 SchülerInnen bauen und Programmieren mit Hilfe der visuellen
 Programmierumgebung Blockly eine Umweltmessstation mit den in der
@@ -50,6 +52,6 @@ Hotspots mit dem Internet. Wenn möglich unternehmen Sie eine lokale
 Messkampage und messen für eine kurze Zeit die Umweltphänomene, um Sie
 anschließend auf der openSenseMap zu analysieren.
 
-## Lehrmaterialien für SchülerInnen
+## Lehrmaterialien für SchülerInnen<a name="lehrmaterialien"></a>
 Im folgenden wird beschrieben wie SchülerInnen alle Sensoren der senseBox:edu anschließen und programmieren können. Anschließend sollen die Messwerte auf die openSenseMap übertragen werden. Die Programmierung hierzu erfolgt über die Programmieroberfläche Blockly. 
 
